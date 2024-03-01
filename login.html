@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/login.css">
+  </head>
+  <body>
+
+    <main class="container-fluid ">
+        <form class=" row ">
+          <div class="form-login col-md">
+
+            <img src="imagenes/header-logo2.png" alt="" class="imagen-header mx-auto d-block">
+            <div tabindex="0" role="region">
+              <h1>Registro</h1>
+            </div>
+            
+            <div class="form-group">
+                <input type="Nombre" placeholder="Nombre" aria-label="Ingreso de nombre" class=" form-control">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Apellido" aria-label="Ingreso de apellido" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="date" placeholder="Fecha" aria-label="selección de fecha" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Número de teléfono" aria-label="Ingreso de número de teléfono" class="form-control">
+            </div>
+            <div class="form-group">
+                <select id="provincias" name="provincias" onchange="actualizarCiudades()" class="form-control" aria-label="Selección de Provincia">
+                <option value="azuay">Azuay</option>
+                <option value="bolivar">Bolívar</option>
+                <option value="carchi">Carchi</option>
+                <option value="chimborazo">Chimborazo</option>
+                <option value="cotopaxi">Cotopaxi</option>
+                <option value="eloro">El Oro</option>
+                <option value="esmeraldas">Esmeraldas</option>
+                <option value="galapagos">Galápagos</option>
+                <option value="guayas">Guayas</option>
+                <option value="imbabura">Imbabura</option>
+                <option value="loja">Loja</option>
+                <option value="losrios">Los Ríos</option>
+                <option value="manabi">Manabí</option>
+                <option value="morona">Morona Santiago</option>
+                <option value="napo">Napo</option>
+                <option value="orellana">Orellana</option>
+                <option value="pastaza">Pastaza</option>
+                <option value="pichincha">Pichincha</option>
+                <option value="santaelena">Santa Elena</option>
+                <option value="santoDomingo">Santo Domingo de los Tsáchilas</option>
+                <option value="sucumbios">Sucumbíos</option>
+                <option value="tungurahua">Tungurahua</option>
+                <option value="zamora">Zamora-Chinchipe</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <select id="ciudades" name="ciudades" class="form-control" aria-label="Selección de ciudad respecto a provincia seleccionada">
+              
+                <!-- Las opciones de ciudades se actualizarán dinámicamente -->
+              </select>
+            </div>
+            <div class="form-group">
+                <input type="email" aria-label="correo" placeholder="Correo" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Genero" id="genero"> Género</label>
+            </div>
+            <fieldset class="form-group d-flex justify-content-between">
+              <label>
+                <input type="radio" value="masculino" aria-label="selección de genero masculino, flcha derech para siguiente género, tab para siguiente"> Masculino
+              </label >
+              <label>
+                <input type="radio" value="femenino" aria-label="selección de genero femenino, flecha izquierda para genero anterior, tab para siguiente "> Femenino
+              </label>
+            </fieldset>
+            <div class="form-group">
+                <select name="documento" id="documento" class="form-control" aria-label="Selecciónde tipo de documento">
+                    <option value="Cedula">Cédula</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="numero_documento" aria-label="número de documento" placeholder="Número de documento" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="terminos_y_condiciones" id="terminos_y_condiciones" aria-label="Aceptar terminos y condiciones"> Aceptar Términos y condiciones
+            </div>
+            <div class="form-group d-flex justify-content-center">
+                <input type="button" value="Registrarse" aria-label="registrarse" class="button">
+            </div>
+          </div>
+      </form>
+</main>
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+      function actualizarCiudades() {
+          var provinciaSeleccionada = document.getElementById("provincias").value;
+          var ciudadesSelect = document.getElementById("ciudades");
+
+          // Limpiamos las opciones anteriores
+          ciudadesSelect.innerHTML = "";
+
+          // Agregamos nuevas opciones según la provincia seleccionada
+          switch (provinciaSeleccionada) {
+              case "azuay":
+                  agregarCiudad("Cuenca");
+                  agregarCiudad("Gualaceo");
+                  break;
+              case "bolivar":
+                  agregarCiudad("Guaranda");
+                  agregarCiudad("Chillanes");
+                  break;
+              case "carchi":
+                  agregarCiudad("Tulcán");
+                  agregarCiudad("Montúfar");
+                  break;
+              case "chimborazo":
+                  agregarCiudad("Riobamba");
+                  agregarCiudad("Ambato");
+                  break;
+              case "cotopaxi":
+                  agregarCiudad("Latacunga");
+                  agregarCiudad("Saquisilí");
+                  break;
+              case "eloro":
+                  agregarCiudad("Machala");
+                  agregarCiudad("Santa Rosa");
+                  break;
+              case "esmeraldas":
+                  agregarCiudad("Esmeraldas");
+                  agregarCiudad("Atacames");
+                  break;
+              case "galapagos":
+                  agregarCiudad("Puerto Baquerizo Moreno");
+                  agregarCiudad("Puerto Ayora");
+                  break;
+              case "guayas":
+                  agregarCiudad("Guayaquil");
+                  agregarCiudad("Durán");
+                  break;
+              case "imbabura":
+                  agregarCiudad("Ibarra");
+                  agregarCiudad("Otavalo");
+                  break;
+              case "loja":
+                  agregarCiudad("Loja");
+                  agregarCiudad("Catamayo");
+                  break;
+              case "losrios":
+                  agregarCiudad("Babahoyo");
+                  agregarCiudad("Quevedo");
+                  break;
+              case "manabi":
+                  agregarCiudad("Portoviejo");
+                  agregarCiudad("Manta");
+                  break;
+              case "morona":
+                  agregarCiudad("Macas");
+                  agregarCiudad("Gualaquiza");
+                  break;
+              case "napo":
+                  agregarCiudad("Tena");
+                  agregarCiudad("Archidona");
+                  break;
+              case "orellana":
+                  agregarCiudad("Coca");
+                  agregarCiudad("La Joya de los Sachas");
+                  break;
+              case "pastaza":
+                  agregarCiudad("Puyo");
+                  agregarCiudad("Mera");
+                  break;
+              case "pichincha":
+                  agregarCiudad("Quito");
+                  agregarCiudad("Cayambe");
+                  break;
+              case "santaelena":
+                  agregarCiudad("Santa Elena");
+                  agregarCiudad("Salinas");
+                  break;
+              case "santoDomingo":
+                  agregarCiudad("Santo Domingo");
+                  agregarCiudad("La Concordia");
+                  break;
+              case "sucumbios":
+                  agregarCiudad("Nueva Loja");
+                  agregarCiudad("Shushufindi");
+                  break;
+              case "tungurahua":
+                  agregarCiudad("Ambato");
+                  agregarCiudad("Baños");
+                  break;
+              case "zamora":
+                  agregarCiudad("Zamora");
+                  agregarCiudad("Yantzaza");
+                  break;
+              // Agrega más casos según las provincias
+              default:
+                  // Si no hay ninguna provincia seleccionada o no coincide con los casos, no agregamos ciudades
+                  break;
+          }
+      }
+
+      function agregarCiudad(nombreCiudad) {
+          var nuevaCiudad = document.createElement("option");
+          nuevaCiudad.value = nombreCiudad.toLowerCase();
+          nuevaCiudad.text = nombreCiudad;
+          document.getElementById("ciudades").add(nuevaCiudad);
+      }
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,126 @@
+
+body{
+    background-color: #00084E;
+}
+ul {
+    list-style: none;
+    padding: 0; /* Opcional: eliminar el espacio interior predeterminado de las listas */
+  }
+
+
+  button:focus {
+    outline: none; /* Desactiva el efecto de selección (outline) */
+  }
+  button:hover{
+    background-color: #e9d999;
+  }
+
+
+.header-container{
+    background-color: #10108C;
+}
+.lato-15-cuerpo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; /* Peso regular */
+    font-size: 15px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #000;
+}
+.lato-18-titulo-2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Peso regular */
+    font-size: 18px;
+    color: #FFCE00;
+    -webkit-text-stroke: 0.5px #000;
+}
+.lato-50-titulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Peso regular */
+    font-size: 50px;
+    color: #FFCE00;
+    -webkit-text-stroke: 1px #000;
+}
+.lato-14-cuerpo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; /* Peso regular */
+    font-size: 14px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #000;
+}
+.boton{
+    padding: 13px;
+    background-color:   #FFCE00;
+    border: #000 1px solid;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 27px;
+}
+.imagen-noticia{
+    border-radius: 10px;
+    max-width: auto;
+ margin-right: 33.5px;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+      .imagen-header{
+        border-radius: 10px;
+        max-width: 70%;
+        max-height: fit-content;
+        margin: 10px;
+    }
+    .card-container{
+        background-color: #10108C;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        border: #FFCE00 1px solid;
+    }
+    .container-noticia{
+        display: flex;
+        padding: 10px;
+    }
+    
+}
+@media (min-width: 1024px) {
+      .imagen-header{
+        border-radius: 10px;
+        max-width: 40%;
+        max-height: fit-content;
+        margin: 10px;
+
+    }
+    .card-container{
+        background-color: #10108C;
+        margin: 27px;
+        padding: 40px;
+        border-radius: 31px;
+        border: #FFCE00 1px solid;
+    }
+    .container-noticia{
+        display: flex;
+        padding: 10px;
+        padding-right: 125px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .image-container-body{
+        max-width: 100%;
+        height: auto;
+    }
+    .container-noticia{
+        display: inline;
+        padding: auto;
+    }
+
+
+    
+}
+
+
+
