@@ -75,12 +75,6 @@
   margin-right: 0;
 }
 
-@media (max-width: 768px) {
-  .btn-registrarse {
-    margin-top: 1rem; /* mt-3 equivalent */
-  }
-}
-
 @media (max-width: 415px) {
   .navbar {
     display: flex;
@@ -97,6 +91,10 @@
   .nav-item {
     margin-bottom: 0.5rem; /* Adds a little space between items */
   }
+  .navbar-nav .nav-link {
+    display: flex;
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 868px) {
@@ -112,6 +110,10 @@
   .navbar-nav .nav-link {
     display: block;
     text-align: center;
+    padding-left: 16px;
+  }
+  .btn-registrarse {
+    margin-top: 1rem; /* mt-3 equivalent */
   }
 }
 
