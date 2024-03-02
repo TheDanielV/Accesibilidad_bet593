@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #10108C; /* Adjust the color to match your design */
+  }
+  
+  .navbar .navbar-brand img {
+    max-width: 150px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #FFFFFF;
+    margin-right: 20px;
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    right: 0;
+  }
+  
+  @media (max-width: 720px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      margin-right: 0;
+    }
+  }
+  
+  /*
+  color: #10108C; azul
+  color: #FFCE00; amarillo
+  color: #FFFFFF; blanco texto
+  color: #000000; negro
+  color: #DF000F; rojo
+  */
