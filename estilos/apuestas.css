@@ -1,0 +1,93 @@
+.lato-12-cuerpo {
+    font-family: "Lato", sans-serif;
+    font-weight: 500px;
+    font-size: 12px;
+  }
+  .lato-18-titulo-2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+  }
+  .lato-24-titulo {
+    font-family: "Lato", sans-serif;
+    font-weight: 0px;
+    font-size: 24px;
+  }
+  .lato-14-cuerpo {
+    font-family: "Lato", sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+  }
+  .monse-16-amarillo {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16;
+    color: #FFCE00;
+  }
+  
+
+.nav-link:hover{
+  color: #ffce00;
+}
+.black-bar{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    padding: 15px;
+    color: #FFCE00;
+    border-left: #FFCE00 1px solid;   
+    border-right: #FFCE00 1px solid;
+    border-bottom: #FFCE00 1px solid;
+}
+.nav-opciones{
+    padding: 15px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 200;
+    font-size: 14;
+    color: #fff;
+}
+.en-vivo{
+    background-color: red;
+    color: #fff;
+    padding: 10px 35px;
+}
+.titulo-partido{
+    padding: 10px 35px;
+    margin: 0px;
+}
+.equipo{
+    margin: 5px 25px;
+}
+.botn-valor-apuesta{
+    padding: 8px 30px;
+    border: #FFCE00 1px solid;  
+    color: #fff; 
+    border-radius: 10px;
+    background-color: #10108C;
+}
+
+@media (max-width: 1024px) {
+  .card-container{
+      background-color: #10108C;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-top-left-radius: 31px;
+      border-top-right-radius: 31px;
+      border: #FFCE00 1px solid;
+  }
+}
+@media (min-width: 1024px) {
+  .card-container{
+      background-color: #10108C;
+      margin-left: 10px;
+      margin-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+      border: #FFCE00 1px solid;
+  }
+  
+}
