@@ -9,33 +9,28 @@
 
 /*fonts*/
 
-.lato-12-cuerpo {
+.lato-14-cuerpo {
   font-family: "Lato", sans-serif;
-  font-weight: 500px;
-  font-size: 12px;
-}
-.lato-18-titulo-2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 0;
-  font-size: 18px;
+  font-weight: 200;
+  font-size: 14px;
 }
 .lato-24-titulo {
   font-family: "Lato", sans-serif;
-  font-weight: 0px;
+  font-weight: 200;
   font-size: 24px;
 }
 .lato-32-titulo {
   font-family: "Lato", sans-serif;
-  font-weight: 0px;
+  font-weight: 200;
   font-size: 32px;
 }
-.lato-14-cuerpo {
+.lato-14-bold {
   font-family: "Lato", sans-serif;
-  font-weight: 0;
+  font-weight: 600;
   font-size: 14px;
 }
 
-/*header styles begin*/
+/*nav styles begin*/
 
 .navbar {
   background-color: #10108c;
@@ -140,6 +135,8 @@ footer {
   }
 }
 
+/*nav styles end*/
+
 /*footer styles begin*/
 
 .line-about-us-footer {
@@ -189,9 +186,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  #footer-about-us {
-    text-align: center;
-  }
 
   .footer-sponsors img {
     max-width: 218.08px;
@@ -228,3 +222,9 @@ footer a:hover svg path {
   color: #FFCE00;
   text-decoration: none;
 }
+
+/*footer styles end*/
+
+/*header styles begin*/
+
+/*header styles end*/
