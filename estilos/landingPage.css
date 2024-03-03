@@ -19,8 +19,15 @@
   font-size: 14px;
 }
 
+/*Aqui empieza el header*/
+
 .navbar {
   background-color: #10108c;
+}
+
+footer {
+  background-color: #10108c;
+  color: #ffffff;
 }
 
 .navbar .navbar-brand img {
@@ -89,7 +96,7 @@
   }
 
   .nav-item {
-    margin-bottom: 0.5rem; /* Adds a little space between items */
+    margin-bottom: 0.5rem;
   }
   .navbar-nav .nav-link {
     display: flex;
@@ -113,10 +120,53 @@
     padding-left: 16px;
   }
   .btn-registrarse {
-    margin-top: 1rem; /* mt-3 equivalent */
+    margin-top: 1rem;
   }
 }
 
+/*Aqui empiza el footer*/
+
+.line-about-us-footer {
+  border-top: 5px solid white;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.btn-social {
+  background-color: #ffffff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 37.14px;
+  width: 47.36px;
+  margin: 0px 11.5px;
+  padding: 0px 0px;
+}
+
+.btn-android {
+  background-color: #ffffff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 37.36px;
+  width: 188.16px;
+}
+
+.btn-credit-cards {
+  background-color: #ffffff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  height: 37.36px;
+  width: 68.14px;
+  padding: 0px 0px;
+  margin: 0px 11.5px;
+}
+
+.btn-credit-cards img {
+  width: auto;
+  height: 37.14px;
+}
 /*
     color: #00084E; azul oscuro  
     color: #10108C; azul
