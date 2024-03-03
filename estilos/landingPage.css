@@ -1,3 +1,14 @@
+/*
+    color: #00084E; azul oscuro  
+    color: #10108C; azul
+    color: #FFCE00; amarillo
+    color: #FFFFFF; blanco texto
+    color: #000000; negro
+    color: #DF000F; rojo
+*/
+
+/*fonts*/
+
 .lato-12-cuerpo {
   font-family: "Lato", sans-serif;
   font-weight: 500px;
@@ -13,13 +24,18 @@
   font-weight: 0px;
   font-size: 24px;
 }
+.lato-32-titulo {
+  font-family: "Lato", sans-serif;
+  font-weight: 0px;
+  font-size: 32px;
+}
 .lato-14-cuerpo {
   font-family: "Lato", sans-serif;
   font-weight: 0;
   font-size: 14px;
 }
 
-/*Aqui empieza el header*/
+/*header styles begin*/
 
 .navbar {
   background-color: #10108c;
@@ -124,7 +140,7 @@ footer {
   }
 }
 
-/*Aqui empiza el footer*/
+/*footer styles begin*/
 
 .line-about-us-footer {
   border-top: 5px solid white;
@@ -167,11 +183,48 @@ footer {
   width: auto;
   height: 37.14px;
 }
-/*
-    color: #00084E; azul oscuro  
-    color: #10108C; azul
-    color: #FFCE00; amarillo
-    color: #FFFFFF; blanco texto
-    color: #000000; negro
-    color: #DF000F; rojo
-  */
+
+.footer-sponsors img {
+  max-width: 718.08px;
+}
+
+@media (max-width: 768px) {
+  #footer-about-us {
+    text-align: center;
+  }
+
+  .footer-sponsors img {
+    max-width: 218.08px;
+  }
+
+  .footer-sponsors #secondary-sponsors img {
+    max-width: 78.08px;
+  }
+}
+
+footer a:hover svg path {
+  fill: #ffce00;
+}
+
+#social-btn-android:hover {
+  color: #ffce00;
+}
+
+.btn-credit-cards img {
+  max-width: 78.14px;
+}
+
+.btn-credit-cards:hover img {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(92%) saturate(339%)
+    hue-rotate(1deg) brightness(102%) contrast(124%);
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #FFCE00;
+  text-decoration: none;
+}
