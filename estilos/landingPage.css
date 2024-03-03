@@ -36,11 +36,6 @@
   background-color: #10108c;
 }
 
-footer {
-  background-color: #10108c;
-  color: #ffffff;
-}
-
 .navbar .navbar-brand img {
   max-width: 150px;
 }
@@ -138,6 +133,10 @@ footer {
 /*nav styles end*/
 
 /*footer styles begin*/
+footer {
+  background-color: #00084e;
+  color: #ffffff;
+}
 
 .line-about-us-footer {
   border-top: 5px solid white;
@@ -186,7 +185,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   .footer-sponsors img {
     max-width: 218.08px;
   }
@@ -219,12 +217,74 @@ footer a:hover svg path {
 }
 
 .footer-link:hover {
-  color: #FFCE00;
+  color: #ffce00;
   text-decoration: none;
 }
 
 /*footer styles end*/
 
 /*header styles begin*/
+
+header {
+  background-color: #00084e;
+  padding: 10px;
+}
+
+#container-headerCarousel {
+  padding: 20px;
+  margin: 0;
+  border: #ffce00 1px solid;
+  border-radius: 8px;
+}
+
+#headerCarousel img {
+  border-radius: 8px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -15px;
+  left: 0%;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.carousel-indicators li:hover {
+  background-color: #ffce00;
+}
+
+@media (max-width: 768px) {
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-indicators li {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+  .carousel-control-prev {
+    display: none;
+  }
+
+  
+}
+
+@media (min-width: 426px) {
+  .carousel-control-next {
+    display: none;
+  }
+}
 
 /*header styles end*/
