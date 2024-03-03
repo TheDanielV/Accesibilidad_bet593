@@ -1,7 +1,6 @@
 
 body{
     background-color: #00084E;
-
 }
 ul {
     list-style: none;
@@ -14,8 +13,8 @@ ul {
   }
   button:hover{
     background-color: #e9d999;
+  }
 
-  } 
 
 .header-container{
     background-color: #10108C;
