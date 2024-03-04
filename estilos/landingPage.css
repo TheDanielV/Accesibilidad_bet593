@@ -29,14 +29,20 @@
   font-weight: 600;
   font-size: 14px;
 }
+.lato-10-cuerpo {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+/*nav styles begin*/
+
+nav {
+  padding: 20px !important;
+}
 
 .navbar {
   background-color: #10108c;
-}
-
-footer {
-  background-color: #10108c;
-  color: #ffffff;
 }
 
 .navbar .navbar-brand img {
@@ -97,6 +103,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px !important;
   }
 
   .navbar-nav {
@@ -136,6 +143,11 @@ footer {
 /*nav styles end*/
 
 /*footer styles begin*/
+footer {
+  background-color: #00084e;
+  color: #ffffff;
+  padding: 20px;
+}
 
 .line-about-us-footer {
   border-top: 5px solid white;
@@ -184,7 +196,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   .footer-sponsors img {
     max-width: 218.08px;
   }
@@ -217,7 +228,7 @@ footer a:hover svg path {
 }
 
 .footer-link:hover {
-  color: #FFCE00;
+  color: #ffce00;
   text-decoration: none;
 }
 
@@ -225,4 +236,202 @@ footer a:hover svg path {
 
 /*header styles begin*/
 
+header {
+  background-color: #00084e;
+  padding: 10px;
+}
+
+#container-headerCarousel {
+  padding: 20px;
+  margin: 0;
+  border: #ffce00 1px solid;
+  border-radius: 8px;
+}
+
+#headerCarousel img {
+  border-radius: 8px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -15px;
+  left: 0%;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.carousel-indicators li:hover {
+  background-color: #ffce00;
+}
+
+@media (max-width: 768px) {
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-indicators li {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) {
+  .carousel-control-next {
+    display: none;
+  }
+}
+
 /*header styles end*/
+
+/*main styles begin*/
+
+main {
+  background-color: #00084e;
+  padding: 10px;
+}
+
+#main-container-cards-all {
+  border-radius: 8px;
+  background-color: #10108c;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#title-cards-main {
+  background-color: #000000;
+  padding: 5px 15px;
+  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
+  border-top: 1px solid #ffce00;
+  border-right: 1px solid #ffce00;
+  border-left: 1px solid #ffce00;
+  border-bottom: none;
+  color: #ffffff;
+  align-items: center;
+}
+
+.container-cards-main {
+  padding: 20px 150px;
+  align-items: center;
+  text-align: center;
+}
+
+#card-row1 {
+  border-right: 1px solid #ffce00;
+  border-left: 1px solid #ffce00;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+#card-row2 {
+  border-right: 1px solid #ffce00;
+  border-left: 1px solid #ffce00;
+  justify-content: center;
+  padding: 0;
+}
+
+#card-row3 {
+  border-right: 1px solid #ffce00;
+  border-left: 1px solid #ffce00;
+  border-bottom: 1px solid #ffce00;
+  border-radius: 0px 0px 8px 8px;
+  padding-bottom: 35px;
+  justify-content: center;
+}
+
+#card-row3 a {
+  background-color: #ffce00;
+  color: #10108c;
+  border-radius: 8px;
+  border-color: #00084e;
+  padding: 8px 30px;
+}
+
+#card-row3 a:hover {
+  background-color: #e9d999;
+}
+
+.sports-card {
+  background-color: #10108c;
+  color: #ffffff;
+  border: #ffce00 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  width: 350px;
+}
+
+.info-icon-cards {
+  justify-content: end;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+.sports-card .icon-container svg,
+.sports-card .info-icon-container svg {
+  max-width: 110px;
+}
+
+.sports-card .btn-live,
+.sports-card .btn-matches {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  height: 60px;
+  margin: 0px 8px;
+  padding: 0px 25px;
+  width: 130px;
+  justify-content: center;
+  align-self: center;
+}
+
+.sports-card .btn:hover {
+  background-color: #FFCE00;
+  color: #10108c;
+}
+
+.sports-card .play-button:hover svg path {
+  fill: #10108c;
+}
+
+.info-icon-cards:hover svg path {
+  fill: #ffce00;
+}
+
+@media (max-width: 400px) {
+  .sports-card {
+    width: 280px;
+  }
+  
+  .sports-card .icon-container svg,
+  .sports-card .info-icon-container svg {
+    max-width: 80px;
+  }
+  
+  .sports-card .btn-live,
+  .sports-card .btn-matches {
+    height: 48px; /* Scale down button height */
+    width: 104px;
+    padding: 0 10px; /* Adjust padding */
+  }
+  
+  /* Adjust any other specific elements as needed */
+}
+/*main styles end*/
