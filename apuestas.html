@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Apuesta-Futbol/title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilos/apuestas.css" />
+
+
+  <script src="https://kit.fontawesome.com/1e22ed0dcc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="container-fluid ">
+    <header class="row ">
+      <nav class="col-md navbar navbar-expand-md">
+        <a class="" href="#">
+          <img src="./imagenes/header-logo2.png" alt="Logo de página Bet593." width="150px" height="46.5px" />
+        </a>
+        <div class="row navbar-nav mr-auto d-inline-flex align-items-center ml-4">
+          <a class="nav-link" href="landingPage.html" style="padding-right: 0px">
+            <h2 class="lato-24-titulo">INICIO</h2>
+          </a>
+          <span class="nav-link disabled zero-padding-right-left zero-margin-right-left">
+            <h2 class="lato-24-titulo">|</h2>
+          </span>
+          <a class="nav-link" href="blog.html" style="padding-left: 0px">
+            <h2 class="lato-24-titulo">INFO</h2>
+          </a>
+        </div>
+        <div class="row navbar-nav ml-auto d-inline-flex align-items-center">
+          <a class="" href="#">
+            <img src="./imagenes/loteriaNacionalLogo.png" alt="Logo de Loteria Nacional." width="150px"
+              height="59.63px" />
+          </a>
+          <a class="btn btn-outline-light mr-2  ml-2" href="#" style="border-radius: 8px">
+            <p class="lato-12-cuerpo">ACCEDER</p>
+          </a>
+          <a class="btn btn-outline-light mr-2 ml-2 btn-registrarse" href="login.html" style="border-radius: 8px">
+            <p class="lato-12-cuerpo">REGÍSTRARSE</p>
+          </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link d-inline-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span aria-label="Opcion de cambio e idioma. ">
+                <h1 aria-label="Idioma actual Español">ES</h1>
+              </span>
+              <svg
+                aria-label="Idioma actual Español, espacio para desplegar opciones  y flecha para navegar entre opciones"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="30px">
+                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+              </svg>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#" aria-label="Cambiar a idioma español">ES</a>
+              <a class="dropdown-item" href="#" aria-label="Cambiar a idioma ingles">EN</a>
+            </div>
+          </li>
+        </div>
+
+      </nav>
+    </header>
+    <main>
+      <div class="row card-container d-flex align-items-center">
+        <i class="fa-solid fa-chevron-right fa-2xs" style="color: #ffce00;"></i>
+        <a href="" class="nav-opciones" aria-label="Ir a Inicio">Inicio</a>
+        <i class="fa-solid fa-chevron-right fa-2xs" style="color: #ffce00;"></i>
+        <a href="" class="nav-opciones" aria-label="Ir a partidos de futbol">Futbol</a>
+        <i class="fa-solid fa-chevron-right fa-2xs" style="color: #ffce00;"></i>
+        <a href="" class="nav-opciones" aria-label="Ir a partidos de envivo">En Vivo</a>
+      </div>
+      <div class="row d-flex align-items-center black-bar">
+        <div class="col d-flex justify-content-center ">
+          <a href="" class="monse-16-amarillo">En vivo</a>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <a href="" class="monse-16-blanco">Partidos</a>
+        </div>
+      </div>
+      <div class="row d-flex align-items-right">
+        <div class=" col-md-8 container-apuestas">
+          <!--* Primera Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;" tabindex="0" aria-label="Desplgar Cuota deportiva">
+                Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">23’ | Premier League - Inglaterra</p>
+                </div>
+                <p class="equipo" tabindex="0">0 West Ham United FC</p>
+                <p class="equipo" tabindex="0">0 Brighton</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">West Ham United FC</p>
+                  <input type="button" value="3.5" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 3,5 a West Ham United FC">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="3.5" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 3,5 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>Brighton</p>
+                  <input type="button" value="3.5" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 3,5 a Brighton">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Segunda Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">46’ | Copa Sao Paulo Juvenil Sub-20 - Brasil</p>
+                </div>
+                <p class="equipo" tabindex="0">0 Esporte Clube Lemense Sub-20</p>
+                <p class="equipo" tabindex="0">1 SE Do Gama DF U 20</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">E C Lemense Sub-20</p>
+                  <input type="button" value="7.25" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 7.25 a MEsporte Clube Lemense Sub-20">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate </p>
+                  <input type="button" value="3.70" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 3.70 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>SE Do Gama DFU 20</p>
+                  <input type="button" value="1.40" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 1.40 a SE Do Gama DF U 20">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Tercera Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">57’ | Premier League - Inglaterra</p>
+                </div>
+                <p class="equipo" tabindex="0">2 Manchester United FC</p>
+                <p class="equipo" tabindex="0">3 Manchester City FC</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">Manchester United FC</p>
+                  <input type="button" value="3.5" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 3,5 a West Ham United FC">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="4.39" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 4.39 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>Manchester City FC</p>
+                  <input type="button" value="1.90" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 1.90 a Manchester City FC">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Cuarta Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">75’ | Liga BBVA - España</p>
+                </div>
+                <p class="equipo" tabindex="0">0 Real Madrid</p>
+                <p class="equipo" tabindex="0">0 FC Barcelona</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">Real Madrid</p>
+                  <input type="button" value="4.50" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 4.50 a Real Madrid">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="9.39" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 9.39 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>FC Barcelona</p>
+                  <input type="button" value="6.90" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 6.90 a FC Barcelona">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Quinta Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">80’ | Categoria Primera A - Colombia</p>
+                </div>
+                <p class="equipo" tabindex="0">1 Millonarios FC</p>
+                <p class="equipo" tabindex="0">1 Atletico Nacional</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">Millonarios FC</p>
+                  <input type="button" value="5.00" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 5.00 a Millonarios FC">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="1.39" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 1.39 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>Atletico Nacional</p>
+                  <input type="button" value="6.90" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 6.90 a Atletico Nacional">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Sexta Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">10’ | Liga Pro - Ecuador</p>
+                </div>
+                <p class="equipo" tabindex="0">2 Liga Deportiva Universitaria de Quito</p>
+                <p class="equipo" tabindex="0">2 Independiente del Valle</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">Liga de Quito</p>
+                  <input type="button" value="6.50" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 6.50 a Liga Deportiva Universitaria de Quito">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="2.39" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 2.39 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>Independiente del Valle</p>
+                  <input type="button" value="1.90" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 1.90 a Independiente del Valle">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--* Septima Tarjeta-->
+          <div class="row">
+            <div class="col-12 cuota-container monse-14-blanco-bold">
+              <p style="margin-bottom: 0px; margin-right: 50px;">Cuota deportiva</p>
+              <i class="fa-solid fa-angle-down fa-xl" style="color: #ffffff;" tabindex="0"
+                aria-label="Desplgar Cuota deportiva"></i>
+            </div>
+            <div class="col-md">
+              <!-- Contenido de la primera columna -->
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p class="titulo-partido" tabindex="0">23’ | Liga MX - Mexico</p>
+                </div>
+                <p class="equipo" tabindex="0">0 Club Necaxa</p>
+                <p class="equipo" tabindex="0">0 Club Deportivo Guadalajara</p>
+              </div>
+            </div>
+            <div class="col-md d-flex align-items-center justify-content-center">
+              <!-- Contenido de la segunda columna -->
+              <div class="d-flex ">
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p class="">Club Necaxa</p>
+                  <input type="button" value="7.50" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 7.50 a Club Necaxa">
+                </div>
+                <div class="d-block-flex texto-apuesta opcion-apuesta">
+                  <p>Empate</p>
+                  <input type="button" value="2.39" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 2.39 al Empate">
+                </div>
+                <div class="d-block-flex  texto-apuesta opcion-apuesta">
+                  <p>C.D Guadalajara</p>
+                  <input type="button" value="4.90" class="botn-valor-apuesta texto-apuesta"
+                    aria-label="Apuesta 4.90 a Club Deportivo Guadalajara">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md " style="padding: 0px;">
+          <!--* Carta de pronóstico 1-->
+          <div class="pronostico-container text-center">
+            <p class="col-12 monse-16-blanco" tabindex="0" aria-label="Pronóstico 1">Pronóstico 1</p>
+            <div>
+              <div class=" card-info-pronostico">
+                <div class="d-flex justify-content-between">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p tabindex="0">
+                    West Ham United FC vs Brighton
+                  </p>
+                  <span class="icon" tabindex="0" aria-label="Eliminar pronóstico">&#10006;</span>
+                </div>
+                <div class="d-block">
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cuota deportiva</p>
+                    <p tabindex="0">3.50</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cantidad</p>
+                    <p tabindex="0">1</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Total a ganar</p>
+                    <p tabindex="0">3.50</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronostico-pd">
+              <p tabindex="0">Limpiar todo</p>
+              <span class="icon" tabindex="0" aria-label="Limpiar Pronóstico">&#10006;</span>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronostico-pd">
+              <p tabindex="0">Cantidad de pronósticos</p>
+              <p tabindex="0">1</p>
+            </div>
+            <div class="d-flex justify-content-between  monse-14-blanco-light texto-pronostico-pd">
+              <p tabindex="0">Ganancia total</p>
+              <p tabindex="0">3.50</p>
+            </div>
+            <input type="button" value="REALIZAR PRONÓSTICO" class="monse-16-azul boton-pronostico">
+          </div>
+
+          <!--* Carta de pronóstico 2-->
+          <div class="pronostico-container text-center">
+            <p class="col-12 monse-16-blanco" tabindex="0" aria-label="Pronóstico 2">Pronóstico 2</p>
+            <div>
+              <div class=" card-info-pronostico">
+                <div class="d-flex justify-content-between">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p tabindex="0">
+                    Real Madrid vs FC Barcelona
+                  </p>
+                  <span class="icon" tabindex="0" aria-label="Eliminar pronóstico">&#10006;</span>
+                </div>
+                <div class="d-block">
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cuota deportiva</p>
+                    <p tabindex="0">4.50</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cantidad</p>
+                    <p tabindex="0">2</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Total a ganar</p>
+                    <p tabindex="0">9.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronostico-pd">
+              <p tabindex="0">Limpiar todo</p>
+              <span class="icon" tabindex="0" aria-label="Limpiar Pronóstico">&#10006;</span>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronóstico-pd">
+              <p tabindex="0">Cantidad de pronósticos</p>
+              <p tabindex="0">1</p>
+            </div>
+            <div class="d-flex justify-content-between  monse-14-blanco-light texto-pronóstico-pd">
+              <p tabindex="0">Ganancia total</p>
+              <p tabindex="0">9.00</p>
+            </div>
+            <input type="button" value="REALIZAR PRONÓSTICO" class="monse-16-azul boton-pronostico">
+          </div>
+
+          <!--* Carta de pronóstico 3-->
+          <div class="pronostico-container text-center">
+            <p class="col-12 monse-16-blanco" tabindex="0" aria-label="Pronóstico 3">Pronóstico 3</p>
+            <div>
+              <div class=" card-info-pronostico">
+                <div class="d-flex justify-content-between">
+                  <p class="en-vivo" tabindex="0" aria-label="Partido actual en vivo">En vivo</p>
+                  <p tabindex="0">
+                    Millonarios FC vs Atletico Nacional
+                  </p>
+                  <span class="icon" tabindex="0" aria-label="Eliminar pronóstico">&#10006;</span>
+                </div>
+                <div class="d-block">
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cuota deportiva</p>
+                    <p tabindex="0">5.00</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Cantidad</p>
+                    <p tabindex="0">1</p>
+                  </div>
+                  <div class="d-flex justify-content-between monse-14-negro-light">
+                    <p tabindex="0">Total a ganar</p>
+                    <p tabindex="0">5.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronostico-pd">
+              <p tabindex="0">Limpiar todo</p>
+              <span class="icon" tabindex="0" aria-label="Limpiar Pronóstico">&#10006;</span>
+            </div>
+            <div class="d-flex justify-content-between monse-14-blanco-light texto-pronóstico-pd">
+              <p tabindex="0">Cantidad de pronósticos</p>
+              <p tabindex="0">1</p>
+            </div>
+            <input type="button" value="REALIZAR PRONÓSTICO" class="monse-16-azul boton-pronostico">
+          </div>
+        </div>
+
+    </main>
+
+    <footer class="text-white pt-4 pb-4">
+      <div class="">
+        <section class="row">
+          <div class="col-md-4 mb-3">
+            <div class="text-center">
+              <h5 class="lato-14-bold" tabindex="0">SOBRE NOSOTROS</h5>
+              <hr class="line-about-us-footer" />
+            </div>
+            <p id="footer-about-us" class="lato-14-cuerpo text-center" tabindex="0">
+              Bet593 es la página de pronósticos deportivos,<br />
+              juego online y bingo de la Lotería Nacional de<br />
+              Ecuador, la única página que te ofrece Juego<br />
+              Seguro, Bueno y Benéfico, gestionado por la<br />
+              Junta de Beneficencia de Guayaquil.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="text-center">
+              <h5 class="lato-14-bold" tabindex="0">REDES SOCIALES</h5>
+              <hr class="line-about-us-footer" />
+            </div>
+            <div class="container-fluid">
+              <div class="row justify-content-center mb-2">
+                <!-- Social Media Buttons -->
+                <div>
+                  <a href="#" class="btn btn-social d-inline-flex align-items-center" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="25.79px" alt="Facebook">
+                      <title id="facebookTitle">Facebook</title>
+                      <desc id="facebookDesc">Icono</desc>
+                      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#000000"
+                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                    </svg>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-social d-inline-flex align-items-center" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="25.79px" alt="Instagram">
+                      <title id="instagramTitle">Instagram</title>
+                      <desc id="instagramDesc">Icono</desc>
+                      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#000000"
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                  </a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-social d-inline-flex align-items-center" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="25.79px" alt="Twitter">
+                      <title id="twitterTitle">Twitter</title>
+                      <desc id="twitterDesc">Icono</desc>
+                      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#000000"
+                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <!-- Android App Button -->
+                <div>
+                  <a id="social-btn-android" href="#" class="btn btn-android" aria-label="Android App">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" height="25.79px" alt="Android">
+                      <title id="androidTitle">Android</title>
+                      <desc id="androidDesc">Icono</desc>
+                      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path fill="#000000"
+                        d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384H576c-8.2-98.5-64.5-181.8-146.9-226.6" />
+                    </svg>
+                    <span class="pl-2 lato-14-bold">ANDROID</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="text-center">
+              <h5 class="lato-14-bold" tabindex="0">MÉTODOS DE PAGO</h5>
+              <hr class="line-about-us-footer" />
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <a href="#" class="btn btn-credit-cards d-inline-flex align-items-center"><img
+                    src="./imagenes/visa-logo.png" alt="Visa Tarjeta" /></a>
+                <a href="#" class="btn btn-credit-cards d-inline-flex align-items-center"><img
+                    src="./imagenes/mastercard-logo.png" alt="MasterCard Tarjeta" /></a>
+                <a href="#" class="btn btn-credit-cards d-inline-flex align-items-center"><img
+                    src="./imagenes/dinersclub-logo.png" alt="Diners Club Tarjeta" /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="row">
+          <div class="container">
+            <div class="row justify-content-between lato-14-cuerpo">
+              <a href="#" class="footer-link">Pronósticos Deportivos</a>
+              <a href="#" class="footer-link">Juegos Online</a>
+              <a href="#" class="footer-link">FAQ</a>
+              <a href="#" class="footer-link">Contacta Con Nosotros</a>
+              <a href="#" class="footer-link">Juego Responsable</a>
+              <a href="#" class="footer-link">Términos Y Condiciones</a>
+            </div>
+            <div class="row justify-content-between lato-14-cuerpo">
+              <a href="#" class="footer-link">Reglamento De Compras</a>
+              <a href="#" class="footer-link">Términos Y Condiciones Pronósticos Deportivos</a>
+              <a href="#" class="footer-link">Términos Y Condiciones Juegos Online</a>
+            </div>
+            <div class="row justify-content-between lato-14-cuerpo">
+              <a href="#" class="footer-link">Requerimientos De Usuarios</a>
+            </div>
+          </div>
+        </section>
+        <section class="row footer-sponsors">
+          <div class="col-12 mt-3 text-center mb-2">
+            <h5 class="lato-14-bold" tabindex="0">Orgullosos Patrocinadores</h5>
+            <div class="mb-4">
+              <img src="./imagenes/ligaprologo.png" alt="Liga Pro Bet593" tabindex="0" />
+            </div>
+            <div id="secondary-sponsors">
+              <img class="mr-5" src="./imagenes/aucas.png" alt="Sociedad Deportiva S.D. Aucas" tabindex="0" />
+              <img class="ml-5" src="./imagenes/guayakillcity.png" alt="Guayaquil City Fútbol Club" tabindex="0" />
+            </div>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-12 mt-3 text-center">
+            <p class="lato-14-cuerpo" tabindex="0">
+              Los juegos están prohibidos para menores de 18 años <br />No
+              conviertas tu diversión en adicción, juega responsablemente
+            </p>
+            <p class="lato-14-cuerpo" tabindex="0"
+              aria-label="Avenida Juan Tanca Marengo 105 y Avenida Justino Cornejo. Numero telefónico: 042 228 4930">Av
+              Juan Tanca Marengo 105 y Av Justino Cornejo - 042 228 4930</p>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
