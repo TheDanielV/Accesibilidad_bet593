@@ -1,4 +1,4 @@
-/*
+/* /*
     color: #00084E; azul oscuro  
     color: #10108C; azul
     color: #FFCE00; amarillo
@@ -35,7 +35,142 @@ body{
     font-size: 16;
     color: #FFCE00;
   }
+  .monse-14-blanco-bold {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14;
+    color: #fff;
+  }
+  .monse-14-blanco-light {
+    font-family: "Monserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 14;
+    color: #fff;
+  }
+  .monse-14-negro-light {
+    font-family: "Monserrat", sans-serif;
+    font-weight: lighter;
+    font-size: 14;
+    color: #000;
+  }
+  .monse-16-blanco {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16;
+    color: #fff;
+  }
+  .monse-16-azul {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16;
+    color: #10108C;
+  }
+  /*nav styles begin*/
+  .navbar {
+    background-color: #10108c;
+  }
   
+  footer {
+    background-color: #00084E;
+    color: #ffffff;
+  }
+  
+  .navbar .navbar-brand img {
+    max-width: 150px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    right: 0;
+  }
+  
+  .navbar-nav .disabled {
+    cursor: default;
+    color: #ffffff;
+  }
+  
+  .btn-outline-light {
+    height: 31px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 31px;
+  }
+  
+  .nav-link:hover,
+  .dropdown-item:hover {
+    color: #ffce00;
+  }
+  
+  .nav-link:hover,
+  .dropdown-item:hover {
+    color: #ffce00;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffce00;
+  }
+  
+  #navbarDropdownMenuLink:hover svg path {
+    fill: #ffce00;
+  }
+  
+  .zero-padding-right-left {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .zero-margin-right-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  @media (max-width: 415px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-item {
+      margin-bottom: 0.5rem;
+    }
+    .navbar-nav .nav-link {
+      display: flex;
+      padding-left: 0px;
+    }
+  }
+  
+  @media (max-width: 868px) {
+    .navbar-nav .nav-link.disabled {
+      display: none;
+    }
+  
+    .row.navbar-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-nav .nav-link {
+      display: block;
+      text-align: center;
+      padding-left: 16px;
+    }
+    .btn-registrarse {
+      margin-top: 1rem;
+    }
+  }
+  
+  /*nav styles end*/
+   /*main styles end*/
 
 .nav-link:hover{
   color: #ffce00;
@@ -51,6 +186,7 @@ body{
 .en-vivo{
     background-color: red;
     color: #fff;
+    width: 140px;
     padding: 10px 35px;
 }
 .titulo-partido{
@@ -82,13 +218,119 @@ body{
     border-radius: 10px;
     background-color: #10108C;
 }
+
+.cuota-container{
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-top: #FFCE00 1px solid;
+}
+.card-info-pronostico{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 13px 16px;
+  margin-bottom: 20px;
+}
+.texto-pronostico-pd{
+  margin-left: 20px;
+   margin-right: 20px;
+}
+.boton-pronostico{
+  border-radius: 8px;
+  background-color: #FFCE00;
+  padding: 8px 17px;
+  border: 0px;
+}
+@media (max-width: 1024px) {
+  .card-container{
+      background-color: #10108C;
+      margin-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-top-left-radius: 31px;
+      border-top-right-radius: 31px;
+      border: #FFCE00 1px solid;
+  }
+  .black-bar{
+
+    background-color: black;
+    padding: 15px;
+    color: #FFCE00;
+    border-left: #FFCE00 1px solid;   
+    border-right: #FFCE00 1px solid;
+    border-bottom: #FFCE00 1px solid;
+}
+.container-apuestas{
+  background-color: #10108C;
+      padding-bottom: 25px;
+      padding-left: 19px;
+      border: #FFCE00 1px solid;
+}
 .opcion-apuesta{
   margin: 0px 20px;
   text-align: center;
+  margin-bottom: 10px;
+  width: 70px;
+}
+.pronostico-container{
+  border-radius: 8px;
+  border: #FFCE00 1px solid;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #10108C;
+
+}
+}
+@media (min-width: 1024px) {
+  .card-container{
+      background-color: #10108C;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-top-left-radius: 31px;
+        border-top-right-radius: 31px;
+      border: #FFCE00 1px solid;
+  }
+  .black-bar{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    padding: 15px;
+    color: #FFCE00;
+    border: #FFCE00 1px solid;
+}
+.container-apuestas{
+  background-color: #10108C;
+      margin-left: 25px;
+      padding-bottom: 25px;
+      padding-left: 19px;
+      border: #FFCE00 1px solid;
+      
+}
+.opcion-apuesta{
+  margin: 0px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 178px;
+}
+.pronostico-container{
+  border-radius: 8px;
+  border: #FFCE00 1px solid;
+  padding: 10px 27px;
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-left: 20px;
+  background-color: #10108C;
+}
+  
 }
 
 
-
+ /*main styles end*/
+  /*footer styles end*/
 footer{
   background-color: #00084E;
 }
@@ -175,62 +417,4 @@ footer a:hover svg path {
 .footer-link:hover {
   color: #FFCE00;
   text-decoration: none;
-}
-
-@media (max-width: 1024px) {
-  .card-container{
-      background-color: #10108C;
-
-      padding-left: 15px;
-      padding-right: 15px;
-      border-top-left-radius: 31px;
-      border-top-right-radius: 31px;
-      border: #FFCE00 1px solid;
-  }
-  .black-bar{
-
-    background-color: black;
-    padding: 15px;
-    color: #FFCE00;
-    border-left: #FFCE00 1px solid;   
-    border-right: #FFCE00 1px solid;
-    border-bottom: #FFCE00 1px solid;
-}
-.container-apuestas{
-  background-color: #10108C;
-
-      padding-bottom: 25px;
-      padding-left: 19px;
-      border: #FFCE00 1px solid;
-}
-}
-@media (min-width: 1024px) {
-  .card-container{
-      background-color: #10108C;
-      margin-left: 10px;
-      margin-right: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-top-left-radius: 31px;
-        border-top-right-radius: 31px;
-      border: #FFCE00 1px solid;
-  }
-  .black-bar{
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: black;
-    padding: 15px;
-    color: #FFCE00;
-    border-left: #FFCE00 1px solid;   
-    border-right: #FFCE00 1px solid;
-    border-bottom: #FFCE00 1px solid;
-}
-.container-apuestas{
-  background-color: #10108C;
-      margin-left: 25px;
-      padding-bottom: 25px;
-      padding-left: 19px;
-      border: #FFCE00 1px solid;
-}
-  
 }
