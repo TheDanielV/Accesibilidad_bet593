@@ -236,7 +236,7 @@ footer a:hover svg path {
 
 /*header styles begin*/
 
-header {
+.banner{
   background-color: #00084e;
   padding: 10px;
 }
