@@ -28,6 +28,7 @@
             width="150px"
             height="46.5px"
             tabindex="0"
+            role="logo"
           />
         </a>
         <div
@@ -38,15 +39,15 @@
             href="landingPage.html"
             style="padding-right: 0px"
           >
-            <h2 class="lato-24-titulo" tabindex="0">INICIO</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="button">INICIO</h2>
           </a>
           <span
             class="nav-link disabled zero-padding-right-left zero-margin-right-left"
           >
-            <h2 class="lato-24-titulo" tabindex="0">|</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="text">|</h2>
           </span>
           <a class="nav-link" href="blog.html" style="padding-left: 0px">
-            <h2 class="lato-24-titulo" tabindex="0">INFO</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="button">INFO</h2>
           </a>
         </div>
         <div class="row navbar-nav ml-auto d-inline-flex align-items-center">
@@ -64,63 +65,65 @@
             href="#"
             style="border-radius: 8px"
           >
-            <p class="lato-12-cuerpo" tabindex="0">ACCEDER</p>
+            <p class="lato-12-cuerpo" tabindex="0" role="button">ACCEDER</p>
           </a>
           <a
             class="btn btn-outline-light mr-2 ml-2 btn-registrarse"
             href="login.html"
             style="border-radius: 8px"
           >
-            <p class="lato-12-cuerpo" tabindex="0">REGÍSTRARSE</p>
+            <p class="lato-12-cuerpo" tabindex="0" role="button">REGÍSTRARSE</p>
           </a>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link d-inline-flex align-items-center"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <span aria-label="Opcion de cambio e idioma. ">
-                <h1 aria-label="Idioma actual Español" tabindex="0">ES</h1>
-              </span>
-              <svg
-                aria-label="Idioma actual Español, espacio para desplegar opciones  y flecha para navegar entre opciones"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                width="40px"
-                height="30px"
-                alt="Chevron: Abrir idiomas"
-                tabindex="0"
-              >
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <title id="chevronTitle">Chevron: Abrir idiomas</title>
-                <desc style="color: black;" id="chevronDesc">Icono</desc>
-                <path
-                  fill="#ffffff"
-                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
-                />
-              </svg>
-            </a>
-            <div
-              class="dropdown-menu dropdown-menu-right"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
+          <ul>
+            <li class="nav-item dropdown">
               <a
-                class="dropdown-item"
+                class="nav-link d-inline-flex align-items-center"
                 href="#"
-                aria-label="Cambiar a idioma español"
-                >ES</a
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-              <a
-                class="dropdown-item"
-                href="#"
-                aria-label="Cambiar a idioma ingles"
-                >EN</a
+                <span aria-label="Opcion de cambio e idioma. ">
+                  <h1 aria-label="Idioma actual Español" tabindex="0" role="button">ES</h1>
+                </span>
+                <svg
+                  aria-label="Idioma actual Español, espacio para desplegar opciones  y flecha para navegar entre opciones"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  width="40px"
+                  height="30px"
+                  alt="Chevron: Abrir idiomas"
+                  tabindex="0"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <title id="chevronTitle">Chevron: Abrir idiomas</title>
+                  <desc style="color: black;" id="chevronDesc">Icono</desc>
+                  <path
+                    fill="#ffffff"
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                  />
+                </svg>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownMenuLink"
               >
-            </div>
-          </li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  aria-label="Cambiar a idioma español"
+                  >ES</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  aria-label="Cambiar a idioma ingles"
+                  >EN</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -150,6 +153,7 @@
                 class="d-block w-100"
                 alt="Imagen de carrusel 1"
                 tabindex="0"
+                role="img"
               />
             </div>
             <div class="carousel-item">
@@ -158,6 +162,7 @@
                 class="d-block w-100"
                 alt="Imagen de carrusel 2"
                 tabindex="0"
+                role="img"
               />
             </div>
             <div class="carousel-item">
@@ -166,6 +171,7 @@
                 class="d-block w-100"
                 alt="Imagen de carrusel 3"
                 tabindex="0"
+                role="img"
               />
             </div>
             <div class="carousel-item">
@@ -174,6 +180,7 @@
                 class="d-block w-100"
                 alt="Imagen de carrusel 4"
                 tabindex="0"
+                role="img"
               />
             </div>
             <div class="carousel-item">
@@ -182,6 +189,7 @@
                 class="d-block w-100"
                 alt="Imagen de carrusel 5"
                 tabindex="0"
+                role="img"
               />
             </div>
           </div>
@@ -210,7 +218,7 @@
       <div id="main-container-cards-all">
         <div class="container-fluid">
           <div id="title-cards-main" class="row justify-content-start">
-            <h2 class="lato-24-titulo" tabindex="0">DEPORTES PARA PRONOSTICAR</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="text">DEPORTES PARA PRONOSTICAR</h2>
           </div>
           <div id="card-row1" class="row container-cards-main">
             <div class="mr-5 ml-5 mb-3">
@@ -223,6 +231,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -242,6 +251,7 @@
                       height="110px"
                       alt="Fútbol"
                       tabindex="0"
+                      role="img"
                     >
                       <title id="futbolTitle">Fútbol</title>
                       <desc style="color: black;" id="futbolDesc">Icono</desc>
@@ -252,7 +262,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">FÚTBOL</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">FÚTBOL</p>
                   <a class="d-flex justify-content-center" href="apuestas.html">
                     <button
                       type="button"
@@ -276,7 +286,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -297,7 +307,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </a>
                 </div>
@@ -313,6 +323,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -340,7 +351,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">E-SPORTS</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">E-SPORTS</p>
                   <div class="d-flex justify-content-center">
                     <button
                       type="button"
@@ -364,7 +375,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -385,7 +396,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </div>
                 </div>
@@ -401,6 +412,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -428,7 +440,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">FÚTBOL AMERICANO</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">FÚTBOL AMERICANO</p>
                   <div class="d-flex justify-content-center">
                     <button
                       type="button"
@@ -452,7 +464,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -473,7 +485,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </div>
                 </div>
@@ -491,6 +503,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -546,7 +559,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">BALONCESTO</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">BALONCESTO</p>
                   <div class="d-flex justify-content-center">
                     <button
                       type="button"
@@ -570,7 +583,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -591,7 +604,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </div>
                 </div>
@@ -607,6 +620,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -638,7 +652,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">TENIS</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">TENIS</p>
                   <div class="d-flex justify-content-center">
                     <button
                       type="button"
@@ -662,7 +676,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -683,7 +697,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </div>
                 </div>
@@ -699,6 +713,7 @@
                     height="32px"
                     alt="Información"
                     tabindex="0"
+                    role="button"
                   >
                     <title id="question1Title">Información</title>
                     <desc style="color: black;" id="question1Desc">Icono</desc>
@@ -746,7 +761,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="card-title mb-3 lato-14-bold" tabindex="0">VOLEIBOL</p>
+                  <p class="card-title mb-3 lato-14-bold" tabindex="0" role="text">VOLEIBOL</p>
                   <div class="d-flex justify-content-center">
                     <button
                       type="button"
@@ -770,7 +785,7 @@
                           fill="#DF000F"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">EN VIVO</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">EN VIVO</p>
                     </button>
                     <button
                       type="button"
@@ -791,7 +806,7 @@
                           fill="#FFCE00"
                         />
                       </svg>
-                      <p class="lato-14-cuerpo" tabindex="0">PARTIDOS</p>
+                      <p class="lato-14-cuerpo" tabindex="0" role="button">PARTIDOS</p>
                     </button>
                   </div>
                 </div>
@@ -805,6 +820,7 @@
                 class="btn btn-primary lato-14-bold"
                 aria-label="Ver más deportes"
                 tabindex="0"
+                role="button"
                 >MÁS...</a
               >
             </div>
@@ -817,10 +833,10 @@
         <section class="row">
           <div class="col-md-4 mb-3">
             <div class="text-center">
-              <p class="lato-14-bold" tabindex="0">SOBRE NOSOTROS</p>
+              <p class="lato-14-bold" tabindex="0" role="text">SOBRE NOSOTROS</p>
               <hr class="line-about-us-footer" />
             </div>
-            <p id="footer-about-us" class="lato-14-cuerpo text-center" tabindex="0">
+            <p id="footer-about-us" class="lato-14-cuerpo text-center" tabindex="0" role="text">
               Bet593 es la página de pronósticos deportivos,<br />
               juego online y bingo de la Lotería Nacional de<br />
               Ecuador, la única página que te ofrece Juego<br />
@@ -830,7 +846,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="text-center">
-              <p class="lato-14-bold" tabindex="0">REDES SOCIALES</p>
+              <p class="lato-14-bold" tabindex="0" role="text">REDES SOCIALES</p>
               <hr class="line-about-us-footer" />
             </div>
             <div class="container-fluid">
@@ -848,6 +864,7 @@
                       height="25.79px"
                       alt="Facebook"
                       tabindex="0"
+                      role="button"
                       aria-label="Facebook"
                     >
                       <title id="facebookTitle">Facebook</title>
@@ -872,6 +889,7 @@
                       height="25.79px"
                       alt="Instagram"
                       tabindex="0"
+                      role="button"
                       aria-label="Instagram"
                     >
                       <title id="instagramTitle">Instagram</title>
@@ -896,6 +914,7 @@
                       height="25.79px"
                       alt="Twitter"
                       tabindex="0"
+                      role="button"
                       aria-label="Twitter"
                     >
                       <title id="twitterTitle">Twitter</title>
@@ -932,7 +951,7 @@
                         d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384p76c-8.2-98.5-64.5-181.8-146.9-226.6"
                       />
                     </svg>
-                    <span class="pl-2 lato-14-bold" tabindex="0">ANDROID</span>
+                    <span class="pl-2 lato-14-bold" tabindex="0" role="button">ANDROID</span>
                   </a>
                 </div>
               </div>
@@ -940,7 +959,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="text-center">
-              <p class="lato-14-bold" tabindex="0">MÉTODOS DE PAGO</p>
+              <p class="lato-14-bold" tabindex="0" role="text">MÉTODOS DE PAGO</p>
               <hr class="line-about-us-footer" />
             </div>
             <div class="container">
@@ -949,7 +968,7 @@
                   href="#"
                   class="btn btn-credit-cards d-inline-flex align-items-center"
                   ><img src="./imagenes/visa-logo.png" alt="Visa Tarjeta"
-                  tabindex="0"
+                  tabindex="0" role="button"
                 /></a>
                 <a
                   href="#"
@@ -957,7 +976,7 @@
                   ><img
                     src="./imagenes/mastercard-logo.png"
                     alt="MasterCard Tarjeta"
-                    tabindex="0"
+                    tabindex="0" role="button"
                 /></a>
                 <a
                   href="#"
@@ -965,7 +984,7 @@
                   ><img
                     src="./imagenes/dinersclub-logo.png"
                     alt="Diners Club Tarjeta"
-                    tabindex="0"
+                    tabindex="0" role="button"
                 /></a>
               </div>
             </div>
@@ -974,32 +993,32 @@
         <section class="row">
           <div class="container">
             <div class="row justify-content-between lato-14-cuerpo">
-              <a href="#" class="footer-link" tabindex="0">Pronósticos Deportivos</a>
-              <a href="#" class="footer-link" tabindex="0">Juegos Online</a>
-              <a href="#" class="footer-link" tabindex="0">FAQ</a>
-              <a href="#" class="footer-link" tabindex="0">Contacta Con Nosotros</a>
-              <a href="#" class="footer-link" tabindex="0">Juego Responsable</a>
-              <a href="#" class="footer-link" tabindex="0">Términos Y Condiciones</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Pronósticos Deportivos</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Juegos Online</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">FAQ</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Contacta Con Nosotros</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Juego Responsable</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Términos Y Condiciones</a>
             </div>
             <div class="row justify-content-between lato-14-cuerpo">
-              <a href="#" class="footer-link" tabindex="0">Reglamento De Compras</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Reglamento De Compras</a>
               <a href="#" class="footer-link" tabindex="0"
                 >Términos Y Condiciones Pronósticos Deportivos</a
               >
-              <a href="#" class="footer-link" tabindex="0"
+              <a href="#" class="footer-link" tabindex="0" role="button"
                 >Términos Y Condiciones Juegos Online</a
               >
             </div>
             <div class="row justify-content-between lato-14-cuerpo">
-              <a href="#" class="footer-link" tabindex="0">Requerimientos De Usuarios</a>
+              <a href="#" class="footer-link" tabindex="0" role="button">Requerimientos De Usuarios</a>
             </div>
           </div>
         </section>
         <section class="row footer-sponsors">
           <div class="col-12 mt-3 text-center mb-2">
-            <p class="lato-14-bold" tabindex="0">Orgullosos Patrocinadores</p>
+            <p class="lato-14-bold" tabindex="0" role="text">Orgullosos Patrocinadores</p>
             <div class="mb-4">
-              <img src="./imagenes/ligaprologo.png" alt="Liga Pro Bet593" tabindex="0"/>
+              <img src="./imagenes/ligaprologo.png" alt="Liga Pro Bet593" tabindex="0" role="img"/>
             </div>
             <div id="secondary-sponsors">
               <img
@@ -1007,6 +1026,7 @@
                 src="./imagenes/aucas.png"
                 alt="Sociedad Deportiva S.D. Aucas"
                 tabindex="0"
+                role="img"
               />
               <img
                 class="ml-5"

@@ -6,6 +6,11 @@
     color: #000000; negro
     color: #DF000F; rojo
 */
+ul {
+  list-style: none;
+  padding: 0; /* Opcional: eliminar el espacio interior predeterminado de las listas */
+}
+
 body{
   background-color: #00084E;
 }

@@ -26,13 +26,13 @@
         </a>
         <div class="row navbar-nav mr-auto d-inline-flex align-items-center ml-4">
           <a class="nav-link" href="landingPage.html" style="padding-right: 0px">
-            <h2 class="lato-24-titulo" tabindex="0">INICIO</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="button">INICIO</h2>
           </a>
           <span class="nav-link disabled zero-padding-right-left zero-margin-right-left">
-            <h2 class="lato-24-titulo" tabindex="0">|</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="text">|</h2>
           </span>
           <a class="nav-link" href="blog.html" style="padding-left: 0px">
-            <h2 class="lato-24-titulo" tabindex="0">INFO</h2>
+            <h2 class="lato-24-titulo" tabindex="0" role="button">INFO</h2>
           </a>
         </div>
         <div class="row navbar-nav ml-auto d-inline-flex align-items-center">
@@ -41,33 +41,35 @@
               height="59.63px" tabindex="0"/>
           </a>
           <a class="btn btn-outline-light mr-2  ml-2" href="en/blog.html" style="border-radius: 8px">
-            <p class="lato-12-cuerpo" tabindex="0">ACCEDER</p>
+            <p class="lato-12-cuerpo" tabindex="0" role="button">ACCEDER</p>
           </a>
           <a class="btn btn-outline-light mr-2 ml-2 btn-registrarse" href="login.html" style="border-radius: 8px">
-            <p class="lato-12-cuerpo" tabindex="0">REGÍSTRARSE</p>
+            <p class="lato-12-cuerpo" tabindex="0" role="button">REGÍSTRARSE</p>
           </a>
-          <li class="nav-item dropdown">
-            <a class="nav-link d-inline-flex align-items-center" href="#" id="navbarDropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span aria-label="Opcion de cambio e idioma. ">
-                <h1 aria-label="Idioma actual Español" tabindex="0">ES</h1>
-              </span>
-              <svg
-                aria-label="Idioma actual Español, espacio para desplegar opciones  y flecha para navegar entre opciones"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="30px"
-                alt="Chevron: Abrir idiomas" tabindex="0">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <title id="chevronTitle">Chevron: Abrir idiomas</title>
-                <desc style="color: black;" id="chevronDesc">Icono</desc>
-                <path fill="#ffffff"
-                  d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-              </svg>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="blog.html" aria-label="Cambiar a idioma español">ES</a>
-              <a class="dropdown-item" href="en/blog.html" aria-label="Cambiar a idioma ingles">EN</a>
-            </div>
-          </li>
+          <ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link d-inline-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span aria-label="Opcion de cambio e idioma. ">
+                  <h1 aria-label="Idioma actual Español" tabindex="0" role="button">ES</h1>
+                </span>
+                <svg
+                  aria-label="Idioma actual Español, espacio para desplegar opciones  y flecha para navegar entre opciones"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40px" height="30px"
+                  alt="Chevron: Abrir idiomas" tabindex="0">
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <title id="chevronTitle">Chevron: Abrir idiomas</title>
+                  <desc style="color: black;" id="chevronDesc">Icono</desc>
+                  <path fill="#ffffff"
+                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="blog.html" aria-label="Cambiar a idioma español">ES</a>
+                <a class="dropdown-item" href="en/blog.html" aria-label="Cambiar a idioma ingles">EN</a>
+              </div>
+            </li>
+          </ul>
         </div>
 
       </nav>

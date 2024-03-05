@@ -8,6 +8,10 @@
 */
 
 /*fonts*/
+ul {
+  list-style: none;
+  padding: 0; /* Opcional: eliminar el espacio interior predeterminado de las listas */
+}
 
 .lato-14-cuerpo {
   font-family: "Lato", sans-serif;
