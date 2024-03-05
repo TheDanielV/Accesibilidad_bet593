@@ -35,6 +35,10 @@
   font-size: 10px;
 }
 
+body {
+  background-color: #00084e;
+}
+
 /*nav styles begin*/
 
 nav {
@@ -202,6 +206,12 @@ footer {
 
   .footer-sponsors #secondary-sponsors img {
     max-width: 78.08px;
+  }
+}
+
+@media (max-width: 325px) {
+  .footer-sponsors #secondary-sponsors img {
+    max-width: 58.08px;
   }
 }
 
