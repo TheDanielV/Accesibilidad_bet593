@@ -59,6 +59,12 @@ body{
     font-size: 16;
     color: #fff;
   }
+  .monse-22-blanco {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 22;
+    color: #fff;
+  }
   .monse-16-azul {
     font-family: "Monserrat", sans-serif;
     font-weight: 700;
@@ -241,6 +247,24 @@ body{
   background-color: #FFCE00;
   padding: 8px 17px;
   border: 0px;
+}
+.card-button{
+
+  padding: 10px 38px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: #FFCE00 1px solid;
+}
+.ganador-container{
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: #FFCE00 1px solid;
+  width: fit-content;
+
 }
 @media (max-width: 1024px) {
   .card-container{
