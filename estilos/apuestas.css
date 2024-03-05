@@ -190,7 +190,7 @@ body{
     color: #fff;
 }
 .en-vivo{
-    background-color: red;
+    background-color: rgb(134, 0, 0);
     color: #fff;
     width: 140px;
     padding: 10px 35px;
@@ -248,14 +248,7 @@ body{
   padding: 8px 17px;
   border: 0px;
 }
-.card-button{
 
-  padding: 10px 38px;
-  padding-bottom: 0px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  border: #FFCE00 1px solid;
-}
 .ganador-container{
   padding-top: 15px;
   padding-left: 10px;
@@ -305,6 +298,14 @@ body{
   background-color: #10108C;
 
 }
+.card-button{
+
+  padding: 10px 10px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: #FFCE00 1px solid;
+}
 }
 @media (min-width: 1024px) {
   .card-container{
@@ -348,6 +349,14 @@ body{
   margin-right: 25px;
   margin-left: 20px;
   background-color: #10108C;
+}
+.card-button{
+
+  padding: 10px 38px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: #FFCE00 1px solid;
 }
   
 }
